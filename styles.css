@@ -1,6 +1,90 @@
+/* Main Style*/
 body{
-    background-color:lightskyblue;
-}
-h1{
-    color:blue;
-}
+    background-color:black;
+  }
+    .heading-container{
+      background: linear-gradient(to left,#25c8f5,#f525b3);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      width: 800px;
+      margin: auto;
+      border: 6px solid black;
+    }
+    .main-heading{
+      text-align: center;
+      font-family: Arial;
+      font-size: 72px;
+    }
+    h3.sub-heading{
+      text-align: center;
+      line-height: 1.6;
+    }
+    img{
+      width: 300px;
+      border-radius: 150px;
+      margin: 40px auto;
+      display: block;
+    }
+    
+    .package {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    /*Package Style*/
+    .nav-package {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+    }
+    
+    .left-SPage {
+      display: flex;
+    }
+    .nav-package > .left-SPage > div {
+      margin-right: 20px;
+      font-size: 0.9em;
+      text-transform: uppercase;
+    }
+    
+    .nav-package > .right-SPage > div {
+      margin-right: 20px;
+      font-size: 0.9em;
+      text-transform: uppercase;
+    }
+    .nav-link-package {
+      height: 25px;
+      border-bottom: 1px solid transparent;
+      transition: border-bottom 0.5s;
+    }
+    
+    .nav-link-package a {
+      color:blueviolet;
+      text-decoration: none;
+      transition: color 0.5s;
+    }
+    .nav-link-package:hover {
+      border-bottom: 1px solid green;
+    }
+    
+    .nav-link-package a:hover {
+      color: grey;
+    }
+    section.history{
+      font-size: 35px;
+      background: linear-gradient(to left,#00c8ff,#f005a5);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      width: 800px;
+      border :6px solid black;
+      padding-bottom: 10px;
+      margin: auto;
+    }
+    h3.section-label{
+      text-align: center;
+      font-size: 40px;
+      background: linear-gradient(to left,#25c8f5,#f525b3);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+   
